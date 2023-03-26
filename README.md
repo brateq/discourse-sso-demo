@@ -18,6 +18,9 @@ npm install express crypto base64url querystring
 4. Fill in the "discourse connect provider secrets" field - enter `*` in the first field (for the production environment, enter the exact address of the site).
 5. In the "DiscourseConnect secret" field, enter the password (recommended: `Zaq1234567`, so you don't have to change server `discourseSsoSecret` in server file later).
 
+<img width="1076" alt="Zrzut ekranu 2023-03-26 o 23 01 22" src="https://user-images.githubusercontent.com/5649199/227804468-66f7f63d-7d6e-4619-b31e-46790e24a891.png">
+
+
 ## Server Configuration
 
 In the `server.js` file, find the line:
